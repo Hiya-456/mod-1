@@ -1,26 +1,89 @@
 
 <html>
-<center>
-<h3> Registration form </h3>
-<body>
+<head>
+    <title>Registration Form</title>
+</head>
 
-<form>
-Name:<input type="text" name="firstname"><br><br>
+<body bgcolor="beige">
 
-Contact:<input type="tel" name="con"><br><br>
+    <center>
 
-Enrollid:<input type="text" name="enroll"><br><br>
+        <h1>Registration form</h1>
 
-Gender:<input type="radio" name='g'>male
-<input type="radio" name='g'>female<br><br>
+        <img src="registration.jpg" width="100" height="100">
 
-Date of birth:<input type="date" name='date'><br><br>
+        <br><br>
 
-Upload your photo:
-‌<input type="file" name="photo"><br>
-<button type="submit" value"upload">upload</button><br>
-<input type="submit" value="submit">
-</form>
+        <form>
+
+            Name:
+            <input type="text" placeholder="Enter your name">
+            <br><br>
+
+            Contact:
+            <input type="text" value="+91">
+            <br><br>
+
+            Enroll-id:
+            <input type="text" placeholder="Enter your 14 digit Enrollme">
+            <br><br>
+
+            Gender:
+            <input type="radio" name="gender">male
+            <input type="radio" name="gender">female
+            <br><br>
+
+            Date of birth:
+            <input type="date">
+            <br><br><br>
+
+            Address :
+            <textarea rows="6" cols="40"></textarea>
+            <br><br>
+
+            Department:
+            <input type="checkbox"> CSE
+            <input type="checkbox"> IT
+            <input type="checkbox"> ECE
+            <input type="checkbox"> Civil
+            <input type="checkbox"> Mech
+            <br><br>
+
+            Course :
+            <select>
+                <option>--- Select Current Course ---</option>
+                <option>BCA</option>
+                <option>B.Tech</option>
+                <option>B.Sc IT</option>
+                <option>MCA</option>
+            </select>
+
+            <br><br>
+
+            Upload your photo:
+            <input type="file">
+            <br><br>
+
+            <input type="button" value="upload">
+
+            <br><br>
+
+            Enter your password:
+            <input type="password">
+
+            <br><br>
+
+            Enter time slot:
+            <input type="time">
+
+            <br><br>
+
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+
+        </form>
+
+    </center>
+
 </body>
-</center>
 </html>
