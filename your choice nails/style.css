@@ -133,3 +133,9 @@ nav a {
     width: 20%;
     border-radius: 10px;
 }
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 40px;
+}
