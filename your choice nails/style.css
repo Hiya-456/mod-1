@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #3B0F0F;
+}
+
+header {
+    background-color:beige;
+    color: #3B0F0F;
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    background-color: beige;
+    width: 100%;
+    color:#3B0F0F ;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    bottom: 0px;
+}
+nav {
+    margin-top: 10px;
+    background-color: #3B0F0F;
+    font-family: Arial;
+}
+
+nav a {
+    color: beige;
+    text-decoration: none;
+    background-color: #3B0F0F;
+    margin: 15px;
+    font-size: 18px;
+    font-family: Arial;
+}
+.slider {
+    width: 60%;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 10%;
+    padding: auto;
+    border: 5px solid beige; 
+}
+
+.slides {
+    display: flex;
+    width: 300%;
+    animation: slide 7s infinite;
+}
+
+.slides img {
+    width: 60%;
+    height: 400px;
+}
+.card {
+    background-color: white;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+@keyframes slide {
+
+    0% {
+        margin-left: 0%;
+    }
+
+    30% {
+        margin-left: 0%;
+    }
+
+    35% {
+        margin-left: -100%;
+    }
+
+    65% {
+        margin-left: -100%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    100% {
+        margin-left: -200%;
+    }
+}
+.form-box {
+    width: 350px;
+    margin: 50px auto;
+    background-color: beige;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    text-align: center;
+}
+
+.form-box input,
+.form-box textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.form-box input[type="submit"] {
+    background-color: #3B0F0F ;
+    color: beige;
+    border: none;
+    cursor: pointer;
+}
+.about {
+    text-align: center;
+    padding: 30px;
+}
+
+.about img {
+    width: 20%;
+    border-radius: 10px;
+}
